@@ -64,19 +64,20 @@ body {
 header{
   margin-top: 20px;
   background-color: #c2bfe1;
-  hight:560px;
+  hight: 50px;
   max-width: 1280px;
   display: flex;
   justify-content: space-between;
+  align-self: center;
 }
 .left-section{
   width: 48%;
   margin-top: 30px;
 }
-
 .rightsection{
-  width: 48%;
+  width: 40%;
   border-radius: 5%;
+  height: 328px;
 }
 .button-3{
   background-color: #4f46e5;
@@ -91,3 +92,48 @@ header{
 .button-3:hover{
  background-color: #c6c5d4; 
 }
+header1{
+  background-color: #f8faff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  width: 1280px;
+}
+.stats-container {
+      background-color: #e8eaff;
+      border-radius: 16px;
+      text-align: center;
+      padding: 40px 20px;
+      width: 80%;
+      max-width: 1280px;
+    }
+
+    .stats-container h2 {
+      font-size: 24px;
+      font-weight: bold;
+      color: #1e1e1e;
+      margin-bottom: 30px;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .stat {
+      margin: 10px 20px;
+    }
+
+    .stat-number {
+      font-size: 32px;
+      font-weight: bold;
+      color: #5551ff;
+    }
+
+    .stat-label {
+      font-size: 14px;
+      color: #666;
+      margin-top: 5px;
+    }
