@@ -61,3 +61,33 @@ body {
 .cta-btn:hover {
   background-color: #c6c5d4;
 }
+header{
+  margin-top: 20px;
+  background-color: #c2bfe1;
+  hight:560px;
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+}
+.left-section{
+  width: 48%;
+  margin-top: 30px;
+}
+
+.rightsection{
+  width: 48%;
+  border-radius: 5%;
+}
+.button-3{
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button-3:hover{
+ background-color: #c6c5d4; 
+}
