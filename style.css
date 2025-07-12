@@ -137,3 +137,58 @@ header1{
       color: #666;
       margin-top: 5px;
     }
+    h2 {
+      font-size: 28px;
+      color: #2c2c2c;
+      margin-bottom: 40px;
+    }
+
+    .review-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .review-card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      padding: 20px;
+      max-width: 280px;
+      text-align: left;
+    }
+
+    .stars {
+      color: #fbc02d;
+      font-size: 18px;
+    }
+
+    .review-title {
+      font-weight: bold;
+      margin: 10px 0;
+      font-size: 16px;
+    }
+
+    .review-text {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .reviewer {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+    }
+
+    .reviewer img {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+    }
+
+    .reviewer-info {
+      color: #777;
+    }
