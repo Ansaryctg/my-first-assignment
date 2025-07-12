@@ -137,6 +137,13 @@ header1{
       color: #666;
       margin-top: 5px;
     }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f9fc;
+      margin: 0;
+      padding: 40px;
+      text-align: center;
+    }
     h2 {
       font-size: 28px;
       color: #2c2c2c;
@@ -191,4 +198,147 @@ header1{
 
     .reviewer-info {
       color: #777;
+    }
+
+    .contact-section {
+            display: flex;
+            /* Center the content vertically within the container */
+            align-items: center; 
+            padding: 80px 100px;
+            gap: 100px;
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        /* Left side text container */
+        .contact-text {
+            flex: 1;
+            max-width: 450px;
+        }
+
+        /* Styling for the main heading */
+        .contact-text h1 {
+            font-size: 6rem;
+            font-weight: 800; /* Extra bold */
+            color: #000;
+            line-height: 1.1;
+            margin: 0;
+        }
+
+        /* Right side form container */
+        .contact-form-container {
+            flex: 1;
+            max-width: 400px;
+        }
+
+        /* Individual form groups (Label + Input/Textarea) */
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #333;
+            font-size: 1rem;
+        }
+
+        /* Styling for all input fields and textarea */
+        input[type="email"],
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 15px 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 1rem;
+            box-sizing: border-box; /* Ensures padding doesn't affect width */
+            background-color: #fff;
+            color: #333;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        input::placeholder,
+        textarea::placeholder {
+            color: #aaa;
+        }
+
+        input:focus,
+        textarea:focus {
+            border-color: #5A4BD9; /* Highlight on focus */
+        }
+
+        textarea {
+            resize: vertical; /* Allows vertical resizing */
+            height: 150px;
+        }
+
+        /* Submit Button Styling */
+        .submit-button {
+            width: 100%;
+            padding: 15px;
+            /* Button color matching the image */
+            background-color: #5A4BD9; 
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .submit-button:hover {
+            background-color: #4537b0;
+        }
+
+        /* Media query for smaller screens (e.g., mobile) */
+        @media (max-width: 900px) {
+            .contact-section {
+                flex-direction: column;
+                gap: 50px;
+                padding: 40px 20px;
+                text-align: center; /* Center the text for mobile view */
+            }
+            .contact-text h1 {
+                font-size: 4rem;
+            }
+        }
+    .footer {
+      padding: 60px 20px;
+    }
+
+    .footer .logo {
+      font-size: 64px;
+      font-weight: bold;
+      color: #4F46E5; /* Bright blue */
+      margin-bottom: 20px;
+    }
+
+    .footer .description {
+      font-size: 16px;
+      margin-bottom: 30px;
+      color: #888;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .footer .links {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .footer .links a {
+      color: #888;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .footer .links a:hover {
+      color: #4F46E5;
     }
